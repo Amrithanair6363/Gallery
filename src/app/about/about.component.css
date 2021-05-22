@@ -1,0 +1,61 @@
+
+.about-section {
+    padding: 126px;
+    text-align: center;
+    background-color: #474e5d;
+    color: black;
+    background-image: url("../../assets/layoutImages/about.jfif");
+    background-repeat:round ;
+    font-weight: bolder;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  .center{
+    text-align: center;
+    background-color: white;
+    margin: 18rem;
+    margin-top: 3rem;
+    font-family: system-ui;
+    margin-bottom: 5%;
+  }
+  .Heading{
+    text-decoration: underline;
+    margin-bottom: 3%;
+  }
+  .backgroundimage{
+    position: absolute;
+    max-height: 90vh;
+    width: 100%;
+  }
+  .face{
+    height: 196px;
+    width: 207px;
+    border-radius: 50%;
+  }
+  .row{
+    margin: 219px;
+    margin-top: 2px;
+  }
+ .member{
+  padding-left: 42%;
+  text-decoration: underline;
+  margin-bottom: 3%;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  

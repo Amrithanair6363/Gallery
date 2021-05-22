@@ -1,0 +1,28 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #555;;
+    color: white;
+    width:100%;
+    
+    height: auto;
+    position: relative;
+    bottom: 0;
+  }
+  .copy{
+    padding-top: 4rem;
+    padding-right: 148px;
+}
+.copy1{
+  text-align: left;
+  padding-top: 4rem;
+}
+.copy0{
+  text-align: left;
+}
+.bg{
+  max-width: 500px;
+   height: 25px;
+   padding:0px;
+  
+}

@@ -1,0 +1,30 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+.image{
+  width: 347px;
+  overflow:hidden ;
+  
+}
+
+/* .image:hover{
+   width:370px; 
+   height:650px; 
+} */
+
+.modal.show{
+  display: block;
+}
+
+.modalimage{
+  /* width: 100%; */
+  width: 70%;
+    margin-left: 15%;
+}
+  

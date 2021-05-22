@@ -1,0 +1,32 @@
+<nav  class="navbar navbar-expand-lg ">
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+            <li  class="nav-item">
+                <a [routerLink]='["/home"]'  > <img src="../../assets/layoutImages/logo.jfif" alt="image" class="bg"></a>
+            </li>
+            <li  class="nav-item">
+                <a [routerLink]='["/home"]'  > Home</a>
+            </li>
+            <li  class="nav-item">
+                <a [routerLink]='["/about"]' > About</a>
+            </li>
+            <li  class="nav-item">
+                <a [routerLink]='["/gallery"]' *ngIf="isLoggedIN"> Gallery</a>
+            </li>
+
+        </ul>
+        
+      
+        <ul class="topcorner">
+            <li>
+                <a  *ngIf="isLoggedIN">Welcome {{name | titlecase}}</a>
+                <a  *ngIf="isLoggedIN" (click)="logout()" [routerLink]='["/home"]'>Logout</a>
+                <a  *ngIf="!isLoggedIN"(click)="login()" >Login</a>
+
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+

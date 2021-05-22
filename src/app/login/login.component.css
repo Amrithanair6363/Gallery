@@ -1,0 +1,55 @@
+.bg-img {
+    min-height: 502px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  .backgroundimage{
+    position: absolute;
+    max-height: 90vh;
+    width: 100%;
+  }
+  .container {
+    top: 5%;
+    left:4%;
+   
+    position: absolute;
+    right: 0;
+    margin: -6px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .ng-valid:not(form):not(fieldset){ 
+      border-left: 5px solid #42A948; }
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
